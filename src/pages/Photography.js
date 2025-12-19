@@ -11,12 +11,12 @@ function Photography() {
     {
       id: 1,
       title: "Personal Favorites",
-      coverUrl: "/assets/Personal Favorites/cali-1.jpg",
+      coverUrl: "assets/Personal Favorites/cali-1.jpg",
       images: [
-        "/assets/Personal Favorites/cali-1.jpg",
-        "/assets/Personal Favorites/cali.jpg",
-        "/assets/Personal Favorites/cali-3.jpg",
-        "/assets/Personal Favorites/cali-4.jpg",
+        "assets/Personal Favorites/cali-1.jpg",
+        "assets/Personal Favorites/cali.jpg",
+        "assets/Personal Favorites/cali-3.jpg",
+        "assets/Personal Favorites/cali-4.jpg",
       ],
     },
   ];
