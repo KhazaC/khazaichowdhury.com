@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/khazaichowdhury.com/static/css/main.2cc04f63.css",
-    "main.js": "/khazaichowdhury.com/static/js/main.5e1d7a29.js",
+    "main.css": "/khazaichowdhury.com/static/css/main.aec43b3c.css",
+    "main.js": "/khazaichowdhury.com/static/js/main.59239e07.js",
     "static/media/revicons.eot": "/khazaichowdhury.com/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/khazaichowdhury.com/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/khazaichowdhury.com/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/khazaichowdhury.com/index.html",
-    "main.2cc04f63.css.map": "/khazaichowdhury.com/static/css/main.2cc04f63.css.map",
-    "main.5e1d7a29.js.map": "/khazaichowdhury.com/static/js/main.5e1d7a29.js.map"
+    "main.aec43b3c.css.map": "/khazaichowdhury.com/static/css/main.aec43b3c.css.map",
+    "main.59239e07.js.map": "/khazaichowdhury.com/static/js/main.59239e07.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cc04f63.css",
-    "static/js/main.5e1d7a29.js"
+    "static/css/main.aec43b3c.css",
+    "static/js/main.59239e07.js"
   ]
 }
