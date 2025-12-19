@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "//khazaichowdhury.com/static/css/main.266af6f6.css",
+    "main.js": "//khazaichowdhury.com/static/js/main.9553566c.js",
+    "static/media/revicons.eot": "//khazaichowdhury.com/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "//khazaichowdhury.com/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "//khazaichowdhury.com/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "//khazaichowdhury.com/index.html",
+    "main.266af6f6.css.map": "//khazaichowdhury.com/static/css/main.266af6f6.css.map",
+    "main.9553566c.js.map": "//khazaichowdhury.com/static/js/main.9553566c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.266af6f6.css",
+    "static/js/main.9553566c.js"
+  ]
+}
