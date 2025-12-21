@@ -19,10 +19,10 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="nav-logo">
-        <img src="/assets/logo.svg" alt="Home" className="logo-icon" />
+      <Link to="/khazaichowdhury.com/" className="nav-logo">
+        <img src={`${process.env.PUBLIC_URL}/assets/logo.svg`} alt="Home" className="logo-icon" />
       </Link>
-      <Link to="/photography" className="nav-link">
+      <Link to="/khazaichowdhury.com/photography" className="nav-link">
         Photography
       </Link>
       {/* <Link to="/computer-science" className="nav-link">

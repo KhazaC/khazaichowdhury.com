@@ -11,12 +11,23 @@ function Photography() {
     {
       id: 1,
       title: "Personal Favorites",
-      coverUrl: "assets/Personal Favorites/cali-1.jpg",
+      coverUrl: `${process.env.PUBLIC_URL}/assets/Personal%20Favorites/cali-1.jpg`,
       images: [
-        "assets/Personal Favorites/cali-1.jpg",
-        "assets/Personal Favorites/cali.jpg",
-        "assets/Personal Favorites/cali-3.jpg",
-        "assets/Personal Favorites/cali-4.jpg",
+        `${process.env.PUBLIC_URL}/assets/Personal%20Favorites/cali-1.jpg`,
+        `${process.env.PUBLIC_URL}/assets/Personal%20Favorites/cali.jpg`,
+        `${process.env.PUBLIC_URL}/assets/Personal%20Favorites/cali-3.jpg`,
+        `${process.env.PUBLIC_URL}/assets/Personal%20Favorites/cali-4.jpg`,
+      ],
+    },
+    {
+      id: 2,
+      title: "Turkey",
+      coverUrl: `${process.env.PUBLIC_URL}/assets/Turkey/Turkey-Small-Screen-3.jpg`,
+      images: [
+        `${process.env.PUBLIC_URL}/assets/Turkey/Turkey-Small-Screen-1.jpg`,
+        `${process.env.PUBLIC_URL}/assets/Turkey/Turkey-Small-Screen-2.jpg`,
+        `${process.env.PUBLIC_URL}/assets/Turkey/Turkey-Small-Screen-3.jpg`,
+        `${process.env.PUBLIC_URL}/assets/Turkey/Turkey-Small-Screen-4.jpg`,
       ],
     },
   ];
@@ -34,21 +45,23 @@ function Photography() {
 
       <div className="photo-grid">
         {photoCollections.map((collection) => (
-          <div 
-            key={collection.id} 
+          <div
+            key={collection.id}
             className="photo-card"
             onClick={() => openGallery(collection.images)}
           >
             <img src={collection.coverUrl} alt={collection.title} />
             <div className="photo-info">
               <h3>{collection.title}</h3>
-              <span className="photo-count">{collection.images.length} photos</span>
+              <span className="photo-count">
+                {collection.images.length} photos
+              </span>
             </div>
           </div>
         ))}
       </div>
 
-      <Lightbox 
+      <Lightbox
         images={currentGallery}
         isOpen={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
